@@ -1,5 +1,4 @@
 
-
 package com.facebook.samples.sessionlogin;
 
 import java.util.Calendar;
@@ -239,11 +238,7 @@ public class LoginUsingLoginFragmentActivity extends FragmentActivity {
 	
 	@Override
 	public void onActivityResult(int requestCode, int resultCode, Intent data) {
-		Log.d ("THIS WEIRD THING", "IS CALLED");
-		Toast.makeText(getApplicationContext(), "WEIRD", Toast.LENGTH_SHORT).show();
-		Toast.makeText(getApplicationContext(), "WEIRD", Toast.LENGTH_SHORT).show();
-		Toast.makeText(getApplicationContext(), "WEIRD", Toast.LENGTH_SHORT).show();
-		Toast.makeText(getApplicationContext(), "WEIRD", Toast.LENGTH_SHORT).show();
+
 
 		//userSettingsFragment.onActivityResult(requestCode, resultCode, data);
 		super.onActivityResult(requestCode, resultCode, data);
